@@ -1,4 +1,46 @@
-p {
-  color: pink; }
+body {
+  margin: 0; }
+
+div {
+  position: relative; }
+
+#nav {
+  height: 50px;
+  border: 1px solid black;
+  width: 100%; }
+
+#about {
+  height: 25px;
+  border: 1px solid black;
+  border-top: none;
+  width: 100%;
+  margin-top: -50px; }
+
+#about p, #photo p, #video p, #web p {
+  margin-top: 50px; }
+
+#photo {
+  width: 100%;
+  height: 25px;
+  border: 1px solid black;
+  border-top: none;
+  margin-top: -50px; }
+
+#video {
+  width: 100%;
+  height: 25px;
+  border: 1px solid black;
+  border-top: none;
+  margin-top: -50px; }
+
+#web {
+  width: 100%;
+  height: 25px;
+  border: 1px solid black;
+  border-top: none;
+  margin-top: -50px; }
+
+.show {
+  height: 100% !important; }
 
 /*# sourceMappingURL=main.css.map */

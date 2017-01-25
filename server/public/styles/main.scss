@@ -1,3 +1,50 @@
-p{
-  color: pink;
+$nav-height: 50px;
+body{
+  margin: 0;
+}
+div{
+  position: relative;
+}
+#nav{
+  height: $nav-height;
+  border: 1px solid black;
+  width: 100%;
+}
+
+#about{
+  height: $nav-height/2;
+  border: 1px solid black;
+  border-top: none;
+  width: 100%;
+  margin-top: -$nav-height;
+}
+
+#about p, #photo p, #video p, #web p{
+  margin-top: $nav-height;
+}
+
+#photo{
+  width: 100%;
+  height:$nav-height/2;
+  border: 1px solid black;
+  border-top: none;
+  margin-top: -$nav-height;
+}
+#video{
+  width: 100%;
+  height:$nav-height/2;
+  border: 1px solid black;
+  border-top: none;
+  margin-top: -$nav-height;
+}
+#web{
+  width: 100%;
+  height:$nav-height/2;
+  border: 1px solid black;
+  border-top: none;
+  margin-top: -$nav-height;
+}
+.show,{
+  height: 100% !important;
+
 }

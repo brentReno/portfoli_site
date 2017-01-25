@@ -3,16 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>Brent Reno</title>
-    <script src="/vendors/angular.min.js" charset="utf-8"></script>
-    <script src="/vendors/angular-route.min.js" charset="utf-8"></script>
+    <script src="/vendors/jquery-3.1.0.min.js"></script>
     <script src="/scripts/client.min.js"></script>
-    <script src="/scripts/controllers/homeController.js"></script>
-    <link rel="stylesheet" href="/vendors/bootstrap.min.css">
     <link rel="stylesheet" href="/styles/main.min.css">
 
   </head>
-  <body ng-app="myApp">
-    <p> Hello World</p>
-      <main ng-view></main>
+  <body>
+    <div id ="nav">
+      <p> Brent Reno </p>
+    </div>
+    <div id="about" class="showSection">
+      <p> About </p>
+    </div>
+    <div id="photo" class="showSection">
+      <p>Photo</p>
+    </div>
+    <div id="video" class="showSection">
+      <p> Video </p>
+    </div>
+    <div id="web" class="showSection">
+      <p> Web </p>
+    </div>
   </body>
 </html>
