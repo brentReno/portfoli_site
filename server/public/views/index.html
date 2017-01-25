@@ -3,13 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Brent Reno</title>
-    <script src="/vendors/angular.min.js"></script>
+    <script src="/vendors/angular.min.js" charset="utf-8"></script>
+    <script src="/vendors/angular-route.min.js" charset="utf-8"></script>
     <script src="/scripts/client.min.js"></script>
+    <script src="/scripts/controllers/homeController.js"></script>
     <link rel="stylesheet" href="/vendors/bootstrap.min.css">
     <link rel="stylesheet" href="/styles/main.min.css">
 
   </head>
-  <body>
+  <body ng-app="myApp">
     <p> Hello World</p>
+      <main ng-view></main>
   </body>
 </html>
