@@ -1,17 +1,39 @@
+//colors
+$blue: #262A40;
+$purple-gray:#4C4757;
+$snow: #FFFBF6;
+$brown: #48352C;
+$middle-red: #EA8D76;
+
+
 $nav-height: 50px;
 body{
   margin: 0;
+  overflow-x: hidden;
 }
 div{
   position: relative;
 }
+#top{
+  background-color: black;
+}
+#header-text{
+  color: $snow;
+  z-index: 150;
+  position: absolute;
+  top: 200px;
+}
+#header-gif{
+  margin-left: 2px;
+  margin-top: -50px;
+
+}
 #nav{
-  height: $nav-height;
-  border: 1px solid black;
-  width: 100%;
+  margin-top: -110px;
 }
 
 #about{
+  background-color: $middle-red;
   height: $nav-height/2;
   border: 1px solid black;
   border-top: none;
@@ -21,9 +43,11 @@ div{
 
 #about p, #photo p, #video p, #web p{
   margin-top: $nav-height;
+  color: $snow;
 }
 
 #photo{
+  background-color:$purple-gray;
   width: 100%;
   height:$nav-height/2;
   border: 1px solid black;
@@ -31,6 +55,7 @@ div{
   margin-top: -$nav-height;
 }
 #video{
+  background-color: $blue;
   width: 100%;
   height:$nav-height/2;
   border: 1px solid black;
@@ -38,6 +63,7 @@ div{
   margin-top: -$nav-height;
 }
 #web{
+  background-color: $brown;
   width: 100%;
   height:$nav-height/2;
   border: 1px solid black;

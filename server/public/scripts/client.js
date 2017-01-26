@@ -2,6 +2,7 @@ $(document).ready(function(){
   console.log("ready");
   console.log("ready");
 
+  //Show section on click
   $(".showSection").on("click", function(){
     if($("#about").hasClass("show")){
         $("#about").removeClass("show");
