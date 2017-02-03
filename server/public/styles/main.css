@@ -10,9 +10,15 @@ body {
 
 #nav {
   position: fixed;
-  top: 10px;
-  right: 10px;
+  top: 15px;
+  right: 20px;
   z-index: 99999; }
+
+#menuDown {
+  width: 48px; }
+
+#expandedNav {
+  display: none; }
 
 #landing {
   background-image: url("http://i.giphy.com/IGkSgCTYahzxu.gif");

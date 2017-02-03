@@ -4,5 +4,9 @@ $(document).ready(function(){
   $("#landingClick").on('click', function(){
     console.log("Click works");
     $("#about").css("left", 0);
-  });
+  });// end landing click
+  // expand nav click
+  $("#menuDown").on('click', function(){
+    $("#expandedNav").css("display","block");
+  });//end expandedNav
 });
