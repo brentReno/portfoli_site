@@ -17,7 +17,13 @@ body{
 .page{
     width: 1275px;
     height: 699px;
-    position: absolute;
+    position: fixed;
+}
+#nav{
+  position: fixed;
+  top:10px;
+  right: 10px;
+  z-index: 99999;
 }
 #landing{
   background-image: url("http://i.giphy.com/IGkSgCTYahzxu.gif");
