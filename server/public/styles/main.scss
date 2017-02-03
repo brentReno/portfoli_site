@@ -1,1 +1,45 @@
 //colors
+// source image for pallette http://1.bp.blogspot.com/-ToP42pMWcXY/UCkQq6MIavI/AAAAAAAAFHo/uDwC62NO-90/s640/Screen+shot+2012-08-13+at+10.33.58+AM.png
+//animations inspiration https://www.youtube.com/watch?v=d1RnYfFZK2k
+$moonstone: #7DB4BE;
+$verdigris: #4296AC;
+$hansa: #EBC85B;
+$gainsboro: #E0DDDE;
+$vermillion: #E4411D;
+
+//fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+$nunito: 'Nunito', sans-serif;
+body{
+  margin: 0;
+  font-family: $nunito;
+}
+#landing{
+  width: 1275px;
+  height: 699px;
+  background-image: url("http://i.giphy.com/IGkSgCTYahzxu.gif");
+  background-repeat: no-repeat;
+  background-size: 1275px 699px;
+  overflow: hidden;
+
+}
+#header-text{
+  display: block;
+  font-size: 40px;
+  text-align: center;
+  color: transparent;
+  -webkit-text-stroke: 2px $hansa;
+  margin-top: 200px;
+  a{
+    display: block;
+    font-size: 36px;
+    -webkit-text-stroke: 1px $hansa;
+    margin-top: -60px;
+    color:transparent;
+    text-decoration: none;
+    transition: -webkit-text-stroke 0.5s;
+    &:hover{
+      -webkit-text-stroke: 1px $verdigris;
+    }
+  }
+}
