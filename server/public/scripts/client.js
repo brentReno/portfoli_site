@@ -6,7 +6,8 @@ $(document).ready(function(){
     $("#about").css("left", 0);
   });// end landing click
   // expand nav click
-  $("#menuDown").on('click', function(){
-    $("#expandedNav").css("display","block");
+  $("#menuUpDown").on('click', function(){
+    $("menuUpDown, img").toggle();
+    $("#expandedNav").toggle();
   });//end expandedNav
 });
