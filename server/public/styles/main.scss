@@ -14,14 +14,17 @@ body{
   margin: 0;
   font-family: $nunito;
 }
+.page{
+    width: 1275px;
+    height: 699px;
+    position: absolute;
+}
 #landing{
-  width: 1275px;
-  height: 699px;
   background-image: url("http://i.giphy.com/IGkSgCTYahzxu.gif");
   background-repeat: no-repeat;
   background-size: 1275px 699px;
   overflow: hidden;
-
+  left: 0;
 }
 #header-text{
   display: block;
@@ -42,4 +45,9 @@ body{
       -webkit-text-stroke: 1px $verdigris;
     }
   }
+}
+#about{
+  background-color: $moonstone;
+  left: -1275px;
+  transition: left 1s;
 }

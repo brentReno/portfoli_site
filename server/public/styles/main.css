@@ -3,13 +3,17 @@ body {
   margin: 0;
   font-family: "Nunito", sans-serif; }
 
-#landing {
+.page {
   width: 1275px;
   height: 699px;
+  position: absolute; }
+
+#landing {
   background-image: url("http://i.giphy.com/IGkSgCTYahzxu.gif");
   background-repeat: no-repeat;
   background-size: 1275px 699px;
-  overflow: hidden; }
+  overflow: hidden;
+  left: 0; }
 
 #header-text {
   display: block;
@@ -28,5 +32,10 @@ body {
     transition: -webkit-text-stroke 0.5s; }
     #header-text a:hover {
       -webkit-text-stroke: 1px #4296AC; }
+
+#about {
+  background-color: #7DB4BE;
+  left: -1275px;
+  transition: left 1s; }
 
 /*# sourceMappingURL=main.css.map */
