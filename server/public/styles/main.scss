@@ -10,9 +10,15 @@ $vermillion: #E4411D;
 //fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 $nunito: 'Nunito', sans-serif;
+
+
 body{
   margin: 0;
   font-family: $nunito;
+}
+
+li{
+  list-style: none;
 }
 .page{
     width: 1275px;
@@ -25,12 +31,12 @@ body{
   right: 20px;
   z-index: 99999;
 }
-.navIcon{
+#navIcon{
   width: 48px;
+  transition: all 0.5s;
 }
-#upCircle{
-  display: none;
-}
+
+
 #expandedNav{
   display: none;
 }

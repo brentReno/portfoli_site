@@ -3,6 +3,9 @@ body {
   margin: 0;
   font-family: "Nunito", sans-serif; }
 
+li {
+  list-style: none; }
+
 .page {
   width: 1275px;
   height: 699px;
@@ -14,11 +17,9 @@ body {
   right: 20px;
   z-index: 99999; }
 
-.navIcon {
-  width: 48px; }
-
-#upCircle {
-  display: none; }
+#navIcon {
+  width: 48px;
+  transition: all 0.5s; }
 
 #expandedNav {
   display: none; }
