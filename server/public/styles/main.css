@@ -6,6 +6,9 @@ body {
 li {
   list-style: none; }
 
+a {
+  text-decoration: none; }
+
 .page {
   width: 1275px;
   height: 699px;
@@ -19,10 +22,13 @@ li {
 
 #navIcon {
   width: 48px;
-  transition: all 0.5s; }
+  transition: all 0.75s; }
 
 #expandedNav {
   display: none; }
+  #expandedNav ul {
+    margin: 0;
+    margin-left: -48px; }
 
 #landing {
   background-image: url("http://i.giphy.com/IGkSgCTYahzxu.gif");
@@ -53,5 +59,20 @@ li {
   background-color: #7DB4BE;
   left: -1275px;
   transition: left 1s; }
+
+#photo {
+  background-color: #4296AC;
+  left: 1275px;
+  transition: left 1s; }
+
+#video {
+  background-color: #EBC85B;
+  top: -699px;
+  transition: top 1s; }
+
+#web {
+  background-color: #E4411D;
+  top: 699px;
+  transition: top 1s; }
 
 /*# sourceMappingURL=main.css.map */

@@ -20,6 +20,9 @@ body{
 li{
   list-style: none;
 }
+a{
+  text-decoration: none;
+}
 .page{
     width: 1275px;
     height: 699px;
@@ -30,16 +33,21 @@ li{
   top:15px;
   right: 20px;
   z-index: 99999;
+
 }
 #navIcon{
   width: 48px;
-  transition: all 0.5s;
+  transition: all 0.75s;
 }
-
 
 #expandedNav{
   display: none;
+  ul{
+    margin: 0;
+    margin-left: -48px;
+  }
 }
+
 #landing{
   background-image: url("http://i.giphy.com/IGkSgCTYahzxu.gif");
   background-repeat: no-repeat;
@@ -71,4 +79,19 @@ li{
   background-color: $moonstone;
   left: -1275px;
   transition: left 1s;
+}
+#photo{
+  background-color: $verdigris;
+  left: 1275px;
+  transition: left 1s;
+}
+#video{
+  background-color: $hansa;
+  top: -699px;
+  transition: top 1s;
+}
+#web{
+  background-color: $vermillion;
+  top: 699px;
+  transition: top 1s;
 }
