@@ -39,6 +39,24 @@ a{
   width: 48px;
   transition: all 0.75s;
 }
+.aboutIcon{
+    width:72px;
+
+
+  }
+  .camera{
+    margin-left: 450px;
+    margin-top: 200px;
+  }
+  .tv{
+    margin-left: 50px;
+    margin-bottom: 7px;
+  }
+
+  .computer{
+    margin-left: 50px;
+    margin-bottom: 4px;
+  }
 
 #expandedNav{
   display: none;
@@ -79,6 +97,24 @@ a{
   background-color: $moonstone;
   left: -1275px;
   transition: left 1s;
+  .header{
+    display: block;
+    font-size: 48px;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke: 2px $hansa;
+    margin-top: -125px;
+    margin-left: -600px;
+  }
+  #headerSecond{
+    display: block;
+    margin-top: -20px;
+  }
+}
+#aboutBody{
+  width: 550px;
+  margin-left: 350px;
+  margin-top: -40px;
 }
 #photo{
   background-color: $verdigris;
