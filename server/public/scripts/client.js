@@ -4,6 +4,7 @@ $(document).ready(function(){
   // landing page to about click
   $("#landingClick").on('click', function(){
     $("#about").css("left", 0);
+    console.log(window.location.hash);
   });// end landing click
 
   // expand nav click

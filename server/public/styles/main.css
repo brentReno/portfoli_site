@@ -14,6 +14,9 @@ a {
   height: 699px;
   position: fixed; }
 
+.content {
+  margin-left: 150px; }
+
 #nav {
   position: fixed;
   top: 15px;
@@ -38,6 +41,14 @@ a {
 .computer {
   margin-left: 50px;
   margin-bottom: 4px; }
+
+#aboutPhoto {
+  width: 200px;
+  height: 200px;
+  margin-top: -30px;
+  margin-left: 125px;
+  border-radius: 50%;
+  border: 3px solid #EBC85B; }
 
 #expandedNav {
   display: none; }
@@ -88,8 +99,8 @@ a {
 
 #aboutBody {
   width: 550px;
-  margin-left: 350px;
-  margin-top: -40px; }
+  margin-left: 375px;
+  margin-top: -175px; }
 
 #photo {
   background-color: #4296AC;
