@@ -39,13 +39,11 @@ a{
 
 }
 #navIcon{
-  width: 48px;
+  width: 55px;
   transition: all 0.75s;
 }
 .aboutIcon{
     width:72px;
-
-
   }
 .camera{
   margin-left: 450px;
@@ -69,10 +67,18 @@ a{
   border: 3px solid $hansa;
 }
 #expandedNav{
-  display: none;
+  opacity: 0;
+  background-color: $hansa;
+  width: 55px;
+  border-radius: 10%;
+  transition: opacity 0.25s;
+  transition-delay: 0.75s;
   ul{
     margin: 0;
-    margin-left: -48px;
+    margin-left: -40px;
+    li{
+      text-align: center;
+    }
   }
 }
 

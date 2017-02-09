@@ -50,14 +50,15 @@ $(document).ready(function(){
     }
   };
   var navToggle = function(){
-      var navDispaly = $("#expandedNav").css("display");
-      if(navDispaly == "none"){
+      var navDispaly = $("#expandedNav").css("opacity");
+      if(navDispaly == "0"){
         $("#navIcon").css("transform", "rotate(180deg)");
+        $("#expandedNav").css("opacity", 1);
       }
-      if(navDispaly =="block"){
+      if(navDispaly =="1"){
         $("#navIcon").css("transform", "rotate(0deg)");
+        $("#expandedNav").css("opacity", 0);
       }
-      $("#expandedNav").toggle();
   };
 
 });
