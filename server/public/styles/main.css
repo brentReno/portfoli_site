@@ -20,7 +20,7 @@ a {
 #nav {
   position: fixed;
   top: 15px;
-  right: 20px;
+  right: 30px;
   z-index: 99999; }
 
 #navIcon {
@@ -51,17 +51,27 @@ a {
   border: 3px solid #EBC85B; }
 
 #expandedNav {
+  position: fixed;
+  top: 75px;
+  right: 15px;
   opacity: 0;
-  background-color: #EBC85B;
-  width: 55px;
+  border: 2px solid #EBC85B;
+  padding: 3px;
+  width: 75px;
   border-radius: 10%;
-  transition: opacity 0.25s;
-  transition-delay: 0.75s; }
+  transition: opacity 0.1s;
+  transition-delay: 0.25s; }
   #expandedNav ul {
     margin: 0;
     margin-left: -40px; }
     #expandedNav ul li {
-      text-align: center; }
+      text-align: center;
+      color: transparent;
+      -webkit-text-stroke: 0.75px #EBC85B;
+      font-size: 24px;
+      transition: -webkit-text-stroke 0.5s; }
+      #expandedNav ul li:hover {
+        -webkit-text-stroke: 0.75px #E4411D; }
 
 #landing {
   background-image: url("http://i.giphy.com/IGkSgCTYahzxu.gif");
@@ -86,7 +96,7 @@ a {
     text-decoration: none;
     transition: -webkit-text-stroke 0.5s; }
     #header-text a:hover {
-      -webkit-text-stroke: 1px #4296AC; }
+      -webkit-text-stroke: 1px #E4411D; }
 
 #about {
   background-color: #7DB4BE;
