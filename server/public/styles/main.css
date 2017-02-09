@@ -123,6 +123,10 @@ a {
   background-color: #4296AC;
   left: 1275px;
   transition: left 1s; }
+  #photo .landscape {
+    width: 400px; }
+  #photo .portrait {
+    width: 200px; }
 
 #video {
   background-color: #EBC85B;

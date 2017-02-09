@@ -147,7 +147,14 @@ a{
   background-color: $verdigris;
   left: 1275px;
   transition: left 1s;
+  .landscape{
+    width: 400px;
+  }
+  .portrait{
+    width: 200px;
+  }
 }
+
 #video{
   background-color: $hansa;
   top: -699px;
