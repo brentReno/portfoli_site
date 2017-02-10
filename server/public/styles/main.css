@@ -123,10 +123,27 @@ a {
   background-color: #4296AC;
   left: 1275px;
   transition: left 1s; }
-  #photo .landscape {
-    width: 400px; }
-  #photo .portrait {
-    width: 200px; }
+
+#photoOne a img {
+  width: 25%;
+  margin-top: 5px;
+  margin-left: 5px; }
+
+#photoTwo {
+  margin-top: -430px; }
+  #photoTwo a img {
+    width: 40%;
+    margin-left: 328px; }
+
+#photoThree a img {
+  width: 30%;
+  margin-left: 328px; }
+
+#photoFour {
+  margin-top: -292px; }
+  #photoFour a img {
+    width: 20%;
+    margin-left: 720px; }
 
 #video {
   background-color: #EBC85B;

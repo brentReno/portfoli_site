@@ -147,11 +147,41 @@ a{
   background-color: $verdigris;
   left: 1275px;
   transition: left 1s;
-  .landscape{
-    width: 400px;
+}
+
+#photoOne{
+  a{
+    img{
+      width: 25%;
+      margin-top: 5px;
+      margin-left: 5px;
+    }
   }
-  .portrait{
-    width: 200px;
+}
+#photoTwo{
+  margin-top: -430px;
+  a{
+    img{
+      width: 40%;
+      margin-left: 328px;
+    }
+  }
+}
+#photoThree{
+  a{
+    img{
+      width: 30%;
+      margin-left: 328px;
+    }
+  }
+}
+#photoFour{
+  margin-top: -292px;
+  a{
+    img{
+      width: 20%;
+      margin-left: 720px;
+    }
   }
 }
 
