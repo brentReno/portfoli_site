@@ -149,39 +149,34 @@ a{
   transition: left 1s;
 }
 
-#photoOne{
-  a{
-    img{
-      width: 25%;
-      margin-top: 5px;
-      margin-left: 5px;
-    }
+.grid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+  float: left;
+  img{
+    width: 300px;
+    height: 400px;
   }
 }
-#photoTwo{
-  margin-top: -430px;
-  a{
-    img{
-      width: 40%;
-      margin-left: 328px;
-    }
-  }
-}
-#photoThree{
-  a{
-    img{
-      width: 30%;
-      margin-left: 328px;
-    }
-  }
-}
-#photoFour{
-  margin-top: -292px;
-  a{
-    img{
-      width: 20%;
-      margin-left: 720px;
-    }
+
+.grid-item--width2{
+  img{
+    width: 450px;
+    height: 200px;
   }
 }
 
