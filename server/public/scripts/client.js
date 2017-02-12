@@ -1,13 +1,5 @@
 $(document).ready(function(){
   console.log("ready");
-  var $grid = $('.grid').masonry({
-  itemSelector: '.grid-item',
-  columnWidth: 80
-});
-// layout Masonry after each image loads
-$grid.imagesLoaded().progress( function() {
-  $grid.masonry('layout');
-});
 
 
   // landing page to about click
