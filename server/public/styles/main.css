@@ -127,6 +127,10 @@ a {
     position: absolute;
     top: 30px;
     left: 50px; }
+    #photo .container img {
+      transition: opacity 0.25s; }
+      #photo .container img:hover {
+        opacity: 0.75; }
     #photo .container img:nth-child(1) {
       position: absolute;
       top: 105px;
