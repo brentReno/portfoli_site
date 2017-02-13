@@ -152,9 +152,12 @@ a{
     top:30px;
     left: 50px;
     img{
-      transition: opacity 0.25s;
+      transition: scale ease-in-out 0.5s;
+
       &:hover{
-        opacity: 0.75;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+        transform: scale(1.1);
+        z-index: 300;
       }
     }
     img:nth-child(1){
