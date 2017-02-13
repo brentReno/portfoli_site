@@ -127,41 +127,41 @@ a {
     position: absolute;
     top: 30px;
     left: 50px; }
-    #photo .container img {
+    #photo .container a img {
       transition: scale ease-in-out 0.5s; }
-      #photo .container img:hover {
+      #photo .container a img:hover {
         box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
         transform: scale(1.1);
         z-index: 300; }
-    #photo .container img:nth-child(1) {
+    #photo .container a:nth-child(1) img {
       position: absolute;
       top: 105px;
       left: 32px; }
-    #photo .container img:nth-child(2) {
+    #photo .container a:nth-child(2) img {
       position: absolute;
       top: 5px;
       left: 212px; }
-    #photo .container img:nth-child(3) {
+    #photo .container a:nth-child(3) img {
       position: absolute;
       top: 185px;
       left: 212px; }
-    #photo .container img:nth-child(4) {
+    #photo .container a:nth-child(4) img {
       position: absolute;
       top: 275px;
       left: 532px; }
-    #photo .container img:nth-child(5) {
+    #photo .container a:nth-child(5) img {
       position: absolute;
       left: 772px;
       top: 275px; }
-    #photo .container img:nth-child(6) {
+    #photo .container a:nth-child(6) img {
       position: absolute;
       left: 212px;
       top: 425px; }
-    #photo .container img:nth-child(7) {
+    #photo .container a:nth-child(7) img {
       position: absolute;
       left: 532px;
       top: 139px; }
-    #photo .container img:nth-child(8) {
+    #photo .container a:nth-child(8) img {
       position: absolute;
       left: 852px;
       top: 35px; }
