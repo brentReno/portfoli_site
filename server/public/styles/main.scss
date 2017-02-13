@@ -152,8 +152,9 @@ a{
     top:30px;
     left: 50px;
     a{
+
       img{
-      transition: all ease-in-out 0.25s;
+      transition: box-shadow transform ease-in-out 0.25s;
 
       &:hover{
         box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
