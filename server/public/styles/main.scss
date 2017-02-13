@@ -121,7 +121,7 @@ a{
   }
 }
 #about{
-  background-color: $moonstone;
+  background-image: linear-gradient(to top, $verdigris 0%, $moonstone 100%);
   left: -1275px;
   transition: left 1s;
   .header{
@@ -144,7 +144,7 @@ a{
   margin-top: -220px;
 }
 #photo{
-  background-color: $verdigris;
+  background-image: linear-gradient(to top, $verdigris 0%, $moonstone 100%);
   left: 1275px;
   transition: left 1s;
   .container{
@@ -153,10 +153,11 @@ a{
     left: 50px;
     a{
       img{
-      transition: scale ease-in-out 0.5s;
+      transition: all ease-in-out 0.25s;
 
       &:hover{
         box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+        border: 2px solid rgba(235,200,91,0.7);
         transform: scale(1.1);
         z-index: 300;
         }
@@ -223,12 +224,12 @@ a{
 }
 
 #video{
-  background-color: $hansa;
+  background-image: linear-gradient(to top, $verdigris 0%, $moonstone 100%);
   top: -699px;
   transition: top 1s;
 }
 #web{
-  background-color: $vermillion;
+  background-image: linear-gradient(to top, $verdigris 0%, $moonstone 100%);
   top: 699px;
   transition: top 1s;
 }
